@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+
+/*Global*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+/*Header and Navbar*/
+.hero-main {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 1rem;
+}
+.container #hero-logo {
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar .hero-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
+/*Showcase*/
+.showcase {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 3rem 10rem 5rem 10rem;
+}
+
+.box-1 .content-description {
+    padding-bottom: 1rem;
+    font-size: 1.50em;
+}
+
+.box-1 a {
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.content-title {
+    font-size: 2em;
+}
+
+.content-btn {
+    padding: 0.50rem 2rem;
+    border: 1px solid #3882F6;
+    border-radius: 0.50rem;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.content-btn:hover {
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content .content-img {
+    width: 500px;
+    height: 350px;
+    border-radius: 1rem;
+}
+
+/*Cards*/
+
+.cards {
+    text-align: center;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-title {
+    margin-bottom: 2rem;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.card .card-img {
+    width: 300px;
+    height: 250px;
+    border-radius: 1rem;
+}
+
+.card .btn-card {
+    color: #ffffff;
+    font-size: 1em;
+    background-color: #1F2937;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    padding: 0.90rem 1.50rem;
+    margin-top: 0.50rem;
+}
+
+.card .btn-card:hover {
+    color: #1F2937;
+    background-color: #ffffff;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #1F2937;
+    cursor: pointer;
+}
+
+.card .side-icon {
+    padding: 0 0.70rem;
+    color: #f15152;
+}
+
+/*Quote*/
+
+.quote-section {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 5rem 5rem 2rem 5rem;
+}
+
+.quote-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.quote-content p {
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.prophet {
+    text-align: right;
+    font-weight: 600;
+}
+
+/*Follow*/
+
+.follow-section {
+    padding: 5rem;
+}
+
+.follow-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1050px;
+    height: auto;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 0.50rem;
+    margin: 0 auto;
+    padding: 3rem;
+    
+}
+
+.follow-box .btn-2 {
+    border: 2px solid #F9FAF8;
+    text-decoration: none;
+}
+
+/*footer*/
+
+footer p {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 2.5rem;
+}
+
